@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./",
     "build": "tsc -p .",
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/@types/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts"
   },
   "keywords": [],
   "author": "",
