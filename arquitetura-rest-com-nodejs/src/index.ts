@@ -1,6 +1,6 @@
 import express from 'express';
-import usersRoute from '../routes/users.route';
-import statusRoute from '../routes/status.route';
+import usersRoute from './routes/users.route';
+import statusRoute from './routes/status.route';
 
 const app = express();
 
